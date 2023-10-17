@@ -1,0 +1,88 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    width: 820px;
+    height: 820px;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.figure-container {
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    background: darkgray;
+    position: relative;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background: grey;
+    margin: 0 auto;
+}
+
+.rechteck {
+    width: 210px;
+    height: 120px;
+    background: grey;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background: grey;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid grey;
+    margin: 0 auto;
+}
+
+.button {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    background: black;
+}
+
+.button--triangle {
+    bottom: 22px;
+}
